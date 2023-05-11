@@ -10,6 +10,12 @@ function generatePassword () {
 //1. Prompt the user for the password critera
 //  a. Password length between 8-128
 //  b. lowercase, uppercase, numeric, and/or special characters
+  //       idea: var name = prompt("Enter your name:");
+  alert("How many characters would you like your password to contain?");
+  alert("Click OK to confirm numeric characters.");
+  alert("Click OK to confirm lowercase characters.");
+  alert("Click OK to confirm uppercase characters.");
+  // (needs text box to enter a number 8-128)
 //2. Validate the input
 //3. Generate password based on critera
 
