@@ -46,6 +46,9 @@ function createPasswordOptions() {
     'How long would you like the length of your password to be? (must be 10-128 characters in length)'
   );
   if(passwordLength <10 || passwordLength >128) {
-    alert("Please try again, password length must be 10-128 charcters in length"); return null
+    alert("Please try again, password length must be 10-128 charcters in length"); 
+    return null;
   }
+
+  var containsSpecialCharacters = confirm()
 }
