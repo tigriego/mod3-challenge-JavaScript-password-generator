@@ -86,3 +86,10 @@ function createPasswordOptions() {
   var contiansUppercaseCharacters = confirm("Click OK to confirm including uppercase characters in your password.");
 
 }
+
+function getRandomCharacter() {
+  var uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var randomIndex = Math.floor(Math.random() * uppercaseLetters.length);
+  return uppercaseLetters.charAt(randomIndex);
+}
+
