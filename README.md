@@ -7,6 +7,11 @@ JavaScript Challenge: Password Generator
 
 The "JavaScript Challenge: Password Generator" required me to create an application that an employee can use to generate a random password based on criteria they've selected. This app can run in the browser, and features dynamically updated HTML and CSS powered by JavaScript code. It has a clean and polished user interface that is responsive and adapts to multiple screen sizes. 
 
+## Technologies used:
+- HTML
+- CSS
+- JavaScript
+
 ## Installation
 1. Ensure you have a web browser installed on your computer (e.g, Google, Mozilla Firefox).
 2. Clone this repository to your local machine using following command: git clone git@github.com:tigriego/mod2-challenge-professionalportfolio.git. Alternatively, you can download the repository as a ZIP file and extract it.
@@ -16,9 +21,11 @@ The "JavaScript Challenge: Password Generator" required me to create an applicat
 5. Launch the page
 6. Click on the 'generate password' button to start 
 
+## Technical Perspective Usage
 
+ the password generator works with the use of conditional statements, random number generation, and string manipulation to create the password based on the user's criteria.
 
-## Usage
+## End User Usage
 
 Below are the steps an end user can follow to use the random password generator:
 - Open the webpage or application where the random password generator is available.
@@ -53,7 +60,7 @@ MIT License
 
 ## Screenshots/Demo 
 
-- Live Demo: https://tigriego.github.io/mod2-challenge-professionalportfolio/
+- Live Demo: https://tigriego.github.io/mod3-challenge-JavaScript-password-generator/
 
 - Screenshot of site: 
 ![Alt Text](./assets/images/screencapture-file-C-Users-tigri-bootcamp-challenges-mod3-challenge-JavaScript-password-generator-index-html-2023-05-16-16_30_56.png)
